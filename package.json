@@ -57,5 +57,5 @@
     "@types/react-helmet": "^6.1.5",
     "@types/react-router-dom": "^5.3.3"
   },
-  "homepage": "https://JeonJungyu-1.github.io/NomadCodersChallenge/cryto-trackers"
+  "homepage": "https://JeonJungyu-1.github.io/NomadCodersCrytoTracker"
 }
