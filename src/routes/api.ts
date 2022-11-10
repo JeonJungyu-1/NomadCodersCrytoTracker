@@ -1,4 +1,4 @@
-const BASE_URL = `http://api.coinpaprika.com/v1`;
+const BASE_URL = `https://api.coinpaprika.com/v1`;
 const BASE_URL2 = `https://ohlcv-api.nomadcoders.workers.dev`;
 
 export function fetchCoins() {
