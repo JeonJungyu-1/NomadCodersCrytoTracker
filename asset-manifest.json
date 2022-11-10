@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/NomadCodersCrytoTracker/static/js/main.f41fca3e.js",
+    "main.js": "/NomadCodersCrytoTracker/static/js/main.7335ac5b.js",
     "index.html": "/NomadCodersCrytoTracker/index.html",
-    "main.f41fca3e.js.map": "/NomadCodersCrytoTracker/static/js/main.f41fca3e.js.map"
+    "main.7335ac5b.js.map": "/NomadCodersCrytoTracker/static/js/main.7335ac5b.js.map"
   },
   "entrypoints": [
-    "static/js/main.f41fca3e.js"
+    "static/js/main.7335ac5b.js"
   ]
 }
