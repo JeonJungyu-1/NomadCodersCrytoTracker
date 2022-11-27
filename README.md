@@ -6,4 +6,7 @@
 
 주요 코인들의 가격 등 다양한 정보와 차트를 확인할 수 있습니다.
 
+## 이용방법
+
 https://jeonjungyu-1.github.io/NomadCodersCrytoTracker/
+최초 로딩후 go home 클릭하고 사용.
