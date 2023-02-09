@@ -9,4 +9,3 @@
 ## 이용방법
 
 https://jeonjungyu-1.github.io/NomadCodersCrytoTracker/    
-최초 로딩후 go home 클릭하고 사용.

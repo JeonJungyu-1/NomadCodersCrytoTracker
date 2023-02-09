@@ -27,7 +27,8 @@ const Coin = styled.li`
   color: ${(props) => props.theme.textColor};
   border-radius: 15px;
   margin-bottom: 10px;
-  border: 1px solid white;
+  border: 1px solid;
+  border-color:  ${(props) => props.theme.borderColor};
   a {
     display: flex;
     align-items: center;
@@ -45,8 +46,10 @@ const StyledButton = styled.button`
   background-color: ${(props) => props.theme.cardBgColor};
   color: ${(props) => props.theme.textColor};
   border-radius: 15px;
-  margin-bottom: 10px;
-  border: 1px solid white;
+  margin-left: 10px;
+  border: 1px solid;
+  border-color: ${(props) => props.theme.borderColor};
+  padding: 5px;
   a {
     display: flex;
     align-items: center;

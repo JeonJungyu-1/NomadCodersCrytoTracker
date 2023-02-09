@@ -34,7 +34,7 @@ const Header = styled.header`
 const Overview = styled.div`
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${(props) => props.theme.coinColor};
   padding: 10px 20px;
   border-radius: 10px;
 `;
@@ -68,7 +68,7 @@ const Tab = styled.span<{ isActive: boolean }>`
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 400;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${(props) => props.theme.coinColor};
   border-radius: 10px;
   color: ${(props) =>
     props.isActive ? props.theme.accentColor : props.theme.textColor};
@@ -82,8 +82,9 @@ const StyledButton = styled(Link)`
   background-color: ${(props) => props.theme.cardBgColor};
   color: ${(props) => props.theme.textColor};
   border-radius: 15px;
-  margin-bottom: 10px;
-  border: 1px solid white;
+  margin-left: 10px;
+  border: 1px solid;
+  border-color: ${(props) => props.theme.borderColor};
   padding: 5px;
   a {
     display: flex;

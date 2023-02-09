@@ -59,8 +59,9 @@ const Coin = styled.li`
 const Overview = styled.div`
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${((props) => props.theme.coinColor)};
   padding: 10px 20px;
+  margin: 10px 0px;
   border-radius: 10px;
 `;
 

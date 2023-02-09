@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import App from "../App";
 import Coin from "./Coin";
 import Coins from "./Coins";
 
@@ -8,6 +9,7 @@ function Router({}: IRouterProps) {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/NomadCodersCrytoTracker" element={<Coins />}></Route>
         <Route path="/:coinId/*" element={<Coin />}></Route>
         <Route path="/" element={<Coins />}></Route>
       </Routes>
