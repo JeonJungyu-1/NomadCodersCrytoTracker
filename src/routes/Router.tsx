@@ -9,7 +9,7 @@ function Router({}: IRouterProps) {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/NomadCodersCrytoTracker" element={<Coins />}></Route>
+        <Route path={`${process.env.PUBLIC_URL}`} element={<Coins />}></Route>
         <Route path="/:coinId/*" element={<Coin />}></Route>
         <Route path="/" element={<Coins />}></Route>
       </Routes>
